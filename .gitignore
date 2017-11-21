@@ -1,0 +1,5 @@
+#IGNORE HEAVY FILES 
+*.tar.gz
+*.png
+*.h5
+*.json
