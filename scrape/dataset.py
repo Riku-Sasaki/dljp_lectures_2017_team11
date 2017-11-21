@@ -2,7 +2,6 @@
 import h5py
 import numpy as np
 import os
-import tqdm
 from scipy import misc
 import json
 from tqdm import tqdm
@@ -35,7 +34,7 @@ def create_h5_dataset(output_filename, data_root='data'):
 			files_list = os.listdir(os.path.join(data_root,'images'))
 			files_list.remove('.DS_Store')
 			files_list.remove('.gitkeep')
-			files_list = sorted(files_list, key=lambda filename: int(filename[:-4]))   # sort by age
+			files_list = sorted(files_list, key=lambda filename: int(filename[:-4]))
 			print(len(files_list))
 			print(total_images)
 
