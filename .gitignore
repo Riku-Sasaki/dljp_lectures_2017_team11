@@ -3,3 +3,5 @@
 *.png
 *.h5
 *.json
+misc/
+weights/
