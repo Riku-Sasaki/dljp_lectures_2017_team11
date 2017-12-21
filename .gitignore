@@ -3,5 +3,6 @@
 *.png
 *.h5
 *.json
-misc/
-weights/
+*.bin
+
+**/.DS_Store
