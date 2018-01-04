@@ -3,3 +3,8 @@
 *.png
 *.h5
 *.json
+*.bin
+
+**/.DS_Store
+
+stanford-corenlp-full-2014-08-27
