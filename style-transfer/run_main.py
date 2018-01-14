@@ -105,7 +105,7 @@ def main():
     # load content image and style image
     content_image = utils.load_image(args.content, max_size=args.max_size)
     style_image = utils.load_image(args.style, shape=(content_image.shape[1],content_image.shape[0]))
-
+    style_image = style_image[:,:,:3]
     # initial guess for output
     if args.initial_type == 'content':
         init_image = content_image

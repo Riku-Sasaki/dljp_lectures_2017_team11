@@ -8,7 +8,7 @@ import theano
 import theano.tensor as tensor
 
 #import cPickle as pkl
-import _pickle as pkl
+import pickle as pkl
 import numpy
 import copy
 import nltk
@@ -22,8 +22,8 @@ profile = False
 #-----------------------------------------------------------------------------#
 # Specify model and table locations here
 #-----------------------------------------------------------------------------#
-path_to_models = 'Data/skipthoughts/'
-path_to_tables = 'Data/skipthoughts/'
+path_to_models = 'text-to-image/Data/skipthoughts/'
+path_to_tables = 'text-to-image/Data/skipthoughts/'
 #-----------------------------------------------------------------------------#
 
 path_to_umodel = path_to_models + 'uni_skip.npz'
