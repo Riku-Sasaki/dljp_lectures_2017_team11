@@ -19,8 +19,8 @@ The output image will be created in the main directory under the name ```result.
 
 #### For Style Transfer
   
-  The require file for Style Transfer is the .mat pretrained VGG9 file available [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat), put this file in a 'style-transfer/pre_trained_model' directory.
+  The require file for Style Transfer is the .mat pretrained VGG9 file available [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat), please put this file in the 'style-transfer/pre_trained_model' directory.
 
 #### For Word2Vec
-  The require file for Word2Vec is the .bin.gz file available [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing), unzip this file in the 'word2vec/weights' directory.
+  The require file for Word2Vec is the .bin.gz file available [here](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?usp=sharing), unzip it and put it in the 'word2vec/weights' directory.
 
